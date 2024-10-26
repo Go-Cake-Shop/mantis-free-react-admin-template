@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "mantisfreereactadmin",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2024-10-26T15:50:50.996Z"
+}

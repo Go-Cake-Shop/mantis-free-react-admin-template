@@ -1,0 +1,16 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+type TitanicData @model {
+  pk: ID!
+  survived: Int
+  pclass: Int
+  sex: String
+  age: String
+  fare: String
+  embarked: String
+  class: String
+  who: String
+  alive: String
+}
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
+

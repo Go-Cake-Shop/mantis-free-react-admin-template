@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "mantisfreereactadmin",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 10,
+      "apiKeyExpirationDate": "2024-11-05T15:50:47.170Z",
+      "keyDescription": "cake.dsp.api.key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

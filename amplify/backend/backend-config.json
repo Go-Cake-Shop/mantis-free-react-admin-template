@@ -1,4 +1,24 @@
 {
+  "api": {
+    "mantisfreereactadmin": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDate": "2024-11-05T15:50:47.170Z",
+              "apiKeyExpirationDays": 10,
+              "description": "cake.dsp.api.key"
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
   "storage": {
     "dynamodsp": {
       "providerPlugin": "awscloudformation",
