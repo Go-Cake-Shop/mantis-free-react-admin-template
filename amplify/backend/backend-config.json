@@ -1,0 +1,8 @@
+{
+  "storage": {
+    "dynamodsp": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    }
+  }
+}

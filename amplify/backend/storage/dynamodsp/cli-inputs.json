@@ -1,0 +1,10 @@
+{
+  "resourceName": "dynamodsp",
+  "tableName": "dynamodsp",
+  "partitionKey": {
+    "fieldName": "pk",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
