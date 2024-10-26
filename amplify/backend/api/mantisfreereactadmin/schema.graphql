@@ -12,5 +12,17 @@ type TitanicData @model {
   who: String
   alive: String
 }
+type TitanicData2 @model {
+  pk: ID!              # Primary key, unique identifier for each record
+  survived: Int        # Binary (0 or 1) indicating if the passenger survived
+  pclass: Int          # Passenger class, typically 1, 2, or 3
+  sex: String          # Gender, e.g., "male" or "female"
+  age: Float           # Age of the passenger, now using Float for numerical comparisons
+  fare: Float          # Fare amount, using Float for accurate numerical operations
+  embarked: String     # Embarkation point (e.g., "C", "Q", "S")
+  class: String        # Class as a descriptive field, e.g., "First", "Second"
+  who: String          # Descriptive of the passenger type (e.g., "man", "woman", "child")
+  alive: String        # Descriptive field indicating if the passenger was "yes" or "no"
+}
 input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
 

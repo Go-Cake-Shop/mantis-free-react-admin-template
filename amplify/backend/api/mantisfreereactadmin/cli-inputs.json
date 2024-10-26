@@ -6,7 +6,7 @@
     "defaultAuthType": {
       "mode": "API_KEY",
       "expirationTime": 10,
-      "apiKeyExpirationDate": "2024-11-05T15:50:47.170Z",
+      "apiKeyExpirationDate": "2024-11-05T20:02:14.842Z",
       "keyDescription": "cake.dsp.api.key"
     },
     "conflictResolution": {},

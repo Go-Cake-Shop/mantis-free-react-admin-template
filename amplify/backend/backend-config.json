@@ -7,7 +7,7 @@
           "additionalAuthenticationProviders": [],
           "defaultAuthentication": {
             "apiKeyConfig": {
-              "apiKeyExpirationDate": "2024-11-05T15:50:47.170Z",
+              "apiKeyExpirationDate": "2024-11-05T20:02:14.842Z",
               "apiKeyExpirationDays": 10,
               "description": "cake.dsp.api.key"
             },
