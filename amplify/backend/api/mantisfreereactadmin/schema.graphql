@@ -5,8 +5,8 @@ type TitanicData @model {
   survived: Int
   pclass: Int
   sex: String
-  age: String
-  fare: String
+  age: Float # If age should be numerical, consider using Float instead of String
+  fare: Float # Changed to Float for numerical comparison
   embarked: String
   class: String
   who: String
